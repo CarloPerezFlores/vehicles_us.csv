@@ -4,7 +4,7 @@ import plotly.express as px
 
 # se llama el dataset y se guarda
 try:
-  data = pd.read_csv('C:/Users/USER/Desktop/Business Analyst Certificate/TRIPLE TEN/PROY 4/vehicles_us.csv')
+  data = pd.read_csv('vehicles_us.csv')
 except FileNotFoundError:
   st.error('El archivo "vehicles_us.csv" no se encuentra.')
 
